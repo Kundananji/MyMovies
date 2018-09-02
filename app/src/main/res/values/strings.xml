@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">My Movies</string>
+    <string name="action_sort_by">Sort By</string>
+    <string name="action_order_by">Order By</string>
+    <string name="original_title">Original Title</string>
+    <string name="over_view">Movie Overview</string>
+    <string name="poster_image">Poster Image for Movie</string>
+    <string name="release_date_label">Release Date</string>
+    <string name="release_date">April 2018, 2018</string>
+    <string name="user_rating_label">User Rating</string>
+    <string name="user_rating">4.5</string>
+    <string name="spinner_row_item">Spinner Row Item</string>
+    <string name="rating_placeholder">7.8</string>
+    <string name="error_fetching_info">An error occurred. Try again later</string>
+    <string name="error_no_network">No network. Check your Internet Settings.</string>
+    <string name="try_again">Try Again</string>
+    <string name="credits">All data in this app is provided by themoviedb.org.</string>
+    <string name="star" />
+    <string-array name="sort_by_labels">
+        <item>Most Popular</item>
+        <item>Highest Rated</item>
+        <item>Most Recent</item>
+    </string-array>
+    
+    <string-array name="sort_by_values">
+        <item>popularity.desc</item>
+        <item>vote_average.desc</item>
+        <item>release_date.desc</item>
+    </string-array>
+
+    <string-array name="order_by_labels">
+        <item>Ascending</item>
+        <item>Descending</item>
+      </string-array>
+    <string-array name="order_by_values">
+        <item>desc</item>
+        <item>asc</item>
+    </string-array>
 </resources>
